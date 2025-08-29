@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+</head>
+<body>
+    <h2>Forms in html</h2>
+    <form action="">
+   <label for="">enter your first name:</label>
+   
+    <input  type="text" minlength="10" maxlength="12" />
+
+    <label for="">enter your middle name:</label>
+     <input  type="text" minlength="10" maxlength="12" />
+<label for="">enter your last name:</label> 
+
+<input  type="text" minlength="10" maxlength="12" />
+<br><br>
+<label for="">age</label>
+
+<input type="number" min="1" max="100"/>
+<br><br>
+<label for="">email</label>
+<input type="text" min="1" max="100"/>
+<br>
+
+<br>
+<label for="">date of joining</label>
+<input type="date" pattern="[0-9]{10}" />
+<br><br>
+<label for="">password</label>
+<input type="password" />
+
+<label for="">confirm password</label>
+<input type="password" />       
+        <br>
+
+<br><br>
+<p> enter yourr shirt size:</p>
+<input type="radio" name="size" id="small"/> <label for="small">small</label>        
+<input type="radio" name="size" id="medium"/><label for="medium">medium</label>
+<input type="radio" name="size" id="large"/><label for="large">large</label>    
+<br><br>
+<label for="color">choose your fav color:</label>
+<input type="color" id="color" name="color"/>
+<br><br>
+
+<label for="paymentoption">please select your payment</label>
+
+<select name="payment option" id="payment option">
+        <option value=""></option>
+        <option value="credit card">credit card</option>
+        <option value="debit card">debit card</option>
+        <option value="upi">upi</option>
+        <option value="net banking">net banking</option>
+<br><br>
+
+<input list="cmt" 
+name="car" 
+id="car"/>
+<br><br><br>
+    <textarea 
+    name="cmts"
+     id="cmts"
+      cols="50" 
+      rows="20" 
+      placeholder="write your feedback here"></textarea>
+      <input type="reset" value="submit"/>
+</form>
+</body>
+</html>
